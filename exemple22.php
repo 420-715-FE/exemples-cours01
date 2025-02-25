@@ -1,11 +1,5 @@
 <?php
-    // Indique qu'on veut utiliser les noms de mois en français
-    setlocale(LC_TIME, 'fr_FR.UTF-8');
-
     $noExemple = 22;
-
-    // Permet d'obtenir la date du jour écrite au long
-    $date = strftime("%d %B %Y");
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +14,7 @@
   <body>
     <nav><a href="index.php">Retour</a></nav>
     <p>
-        Bonjour! Nous sommes le <?= $date; ?>.
+        Bonjour! Vous consultez présentement l'exemple <?= $noExemple ?>.
     </p>
   </body>
 </html>
