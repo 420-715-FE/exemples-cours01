@@ -18,7 +18,7 @@ function formaterNombre($nombre) {
     <h1>Exemples</h1>
     <ul>
         <?php
-            for ($i = 1; $i <= 21; $i++) {
+            for ($i = 1; $i <= 22; $i++) {
                 $numero = formaterNombre($i);
                 echo "<li><a href=\"exemple$numero.php\">Exemple $numero</a></li>";
             }
